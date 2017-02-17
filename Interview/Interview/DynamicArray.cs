@@ -11,10 +11,11 @@ namespace Interview
         private List<int> mylist;
         private int[] array = new int[] { 5,6,0,4,2,5,1,0,0,0};
         private List<string> pathList;
-
+        
         public DynamicArray()
         {
             mylist = new List<int>();
+
         }
 
         public void demo()
@@ -23,14 +24,21 @@ namespace Interview
             {
                 mylist.Add(i);
             }
-            for (int i=0;i < mylist.Count;i++)
-            {
-                Console.WriteLine(mylist[i]);
-            }
+
+            Parallel.ForEach(mylist,item => Process(item));
+            
+            //foreach(var item in mylist)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
             Console.Read();
         }
 
+        private void Process(int item)
+        {
+            Console.WriteLine(item);
+        }
         public string recursion(int startIndex, string path)
         {
             if (startIndex<array.Length && array[startIndex] == 0)

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,10 @@ namespace Interview
             //testArray.demo();
             //testArray.test();
 
+            ListMethodsDemo tdemo = new ListMethodsDemo();
+            //tdemo.DEMO_INTLIST();
+            //tdemo.DEMO_OBJ();
+            //tdemo.DEMO_STRINGLIST();
             #endregion
 
             #region String Builder Demo
@@ -62,8 +67,12 @@ namespace Interview
 
             #region LinkedList
 
-            //LinkedListLib testLinkedListLib = new LinkedListLib();
+            //LinkedList<int> teo = new LinkedList<int>();
+            //teo.AddLast(10);
 
+            //teo.RemoveLast();
+
+            //LinkedListLib testLinkedListLib = new LinkedListLib();
             //testLinkedListLib.Add(3);
             //testLinkedListLib.Add(8);
             //Node temp = testLinkedListLib.Add(3);
@@ -104,34 +113,146 @@ namespace Interview
             #endregion
 
             #region stack
+            //Stack<int> mystack = new Stack<int>();
 
-            StackOperations<int> testStackOperations = new StackOperations<int>();
-            try
-            {
-                testStackOperations.push(1);
-                testStackOperations.push(2);
-                testStackOperations.push(3);
-                testStackOperations.push(4);
-                
-                testStackOperations.pop();
-                testStackOperations.pop();
-                testStackOperations.pop();
-                Console.WriteLine(testStackOperations.peek());
-                testStackOperations.display();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-           
-            Console.Read();
+            //mystack.Push(100);
+            //mystack.Push(200);
+            //Console.WriteLine(mystack.Pop());
+            //mystack.Min();
+            //StackOperations<int> testStackOperations = new StackOperations<int>();
+            //try
+            //{
+            //    testStackOperations.push(1);
+            //    testStackOperations.push(2);
+            //    testStackOperations.push(3);
+            //    testStackOperations.push(4);
 
+            //    testStackOperations.pop();
+            //    testStackOperations.pop();
+            //    testStackOperations.pop();
+            //    Console.WriteLine(testStackOperations.peek());
+            //    testStackOperations.display();
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine(e.Message);
+            //}
+            #endregion
+
+            #region Queue
+
+            //QueueOperations<int> myQueueOperations = new QueueOperations<int>();
+
+            //myQueueOperations.Add(10);
+            //myQueueOperations.Add(20);
+            //myQueueOperations.Add(30);
+            //myQueueOperations.Add(40);
+
+            //Console.WriteLine(myQueueOperations.remove());
+            //Console.WriteLine(myQueueOperations.remove());
+            //Console.WriteLine(myQueueOperations.remove());
+            //Console.WriteLine(myQueueOperations.remove());
+            ////Console.WriteLine(myQueueOperations.remove());
+
+            //Queue<int> tempQ = new Queue<int>();
+            //tempQ.Enqueue(7);
+            //tempQ.Dequeue();
 
             #endregion
 
+            /*
+            DateTime testTime = Convert.ToDateTime("12/12/2016");
+            DateTimeFormatInfo dfi = DateTimeFormatInfo.CurrentInfo;
+            Calendar cal = dfi.Calendar;
+
+            Console.WriteLine(testTime);
+            string[] myarr = new string[] {"234"};
+            Console.WriteLine("");
+           */
+            #region Singlton pattern
+
+            //SingeltonClass temp1 = SingeltonClass.getInstance();
+
+            //SingeltonClass temp2 = SingeltonClass.getInstance();
+
+            //Console.WriteLine(temp2.name);
+            #endregion
+
+            #region static class
+            //StaticClassDemo.display();
+            #endregion
+
+            #region Function Overloading
+            //FunctionOverLoading myTest = new FunctionOverLoading();
+            //myTest.setName("Prathmesh");
+            //myTest.displayName();
+
+            //myTest.setName("Prathmesh","Gat");
+            //myTest.displayName();
+            #endregion
+
+            #region inheritance and overiding
+
+            //Derived tempObj = new Derived();
+            //tempObj.children_method();
+            //tempObj.vir_method2();
+
+            //absDerived tempObg1 = new absDerived();
+            //tempObg1.getabsmethod();
+            //tempObg1.Disp();
 
 
+            //sealedClass tempObj2 = new sealedClass();
+            //tempObj2.display();
+
+            //inerfaceDervied tempObj3 = new inerfaceDervied();
+            //tempObj3.func1();
+            //Console.WriteLine(tempObj3.func2());
+
+            #endregion
+
+            #region polymorphism
+            //shape tempobj1 = new Square(2);
+            //tempobj1.calculateArea();
+
+            //shape tempobj2 = new Rectangle(5, 6);
+            //tempobj2.calculateArea();
+            #endregion
+
+            #region sorting
+
+            //Sorting mySorting = new Sorting();
+
+            //mySorting.bubbleSort();
+
+            //mySorting.selectionSort();
+
+            //mySorting.merge_sort();
+
+            //mySorting.quick_sort();
+            #endregion
+
+            #region searching
+
+            //Searching mysearching = new Searching();
+
+            //mysearching.binarySearch();
+            #endregion
+
+            #region dictionary methods
+            //DictionaryMethods myDict = new DictionaryMethods();
+            //myDict.demoDict1();
+            #endregion
+
+            #region 2-d Matrix
+            int[,] myMatrix = new int[,] { { 1, 2, 3 }, { 4, 5, 6 } };
+            MatrixOperations myMatrixOperations = new MatrixOperations();
+            myMatrixOperations.DisplayMatrix(myMatrix);
+            
+            #endregion
+
+            Console.Read();
         }
-        
+
     }
 }

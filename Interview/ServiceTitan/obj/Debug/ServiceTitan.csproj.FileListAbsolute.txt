@@ -1,0 +1,6 @@
+C:\Interview\Interview\ServiceTitan\bin\Debug\ServiceTitan.exe.config
+C:\Interview\Interview\ServiceTitan\bin\Debug\ServiceTitan.exe
+C:\Interview\Interview\ServiceTitan\bin\Debug\ServiceTitan.pdb
+C:\Interview\Interview\ServiceTitan\obj\Debug\ServiceTitan.exe
+C:\Interview\Interview\ServiceTitan\obj\Debug\ServiceTitan.pdb
+C:\Interview\Interview\ServiceTitan\obj\Debug\ServiceTitan.csprojResolveAssemblyReference.cache

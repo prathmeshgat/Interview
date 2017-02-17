@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview", "Interview\Interview.csproj", "{14A23624-7C45-429D-BE78-32C9BAAF8D3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTitan", "ServiceTitan\ServiceTitan.csproj", "{43E1D5AA-875F-45AD-9600-E729392C5935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDelegates", "EventsAndDelegates\EventsAndDelegates.csproj", "{33188237-5735-4794-A34F-B1B515CBD571}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{14A23624-7C45-429D-BE78-32C9BAAF8D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14A23624-7C45-429D-BE78-32C9BAAF8D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14A23624-7C45-429D-BE78-32C9BAAF8D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E1D5AA-875F-45AD-9600-E729392C5935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E1D5AA-875F-45AD-9600-E729392C5935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E1D5AA-875F-45AD-9600-E729392C5935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E1D5AA-875F-45AD-9600-E729392C5935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33188237-5735-4794-A34F-B1B515CBD571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33188237-5735-4794-A34F-B1B515CBD571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33188237-5735-4794-A34F-B1B515CBD571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33188237-5735-4794-A34F-B1B515CBD571}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

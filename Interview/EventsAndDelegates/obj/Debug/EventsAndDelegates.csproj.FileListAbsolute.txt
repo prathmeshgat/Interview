@@ -1,0 +1,5 @@
+C:\Interview\Interview\EventsAndDelegates\bin\Debug\EventsAndDelegates.exe.config
+C:\Interview\Interview\EventsAndDelegates\bin\Debug\EventsAndDelegates.exe
+C:\Interview\Interview\EventsAndDelegates\bin\Debug\EventsAndDelegates.pdb
+C:\Interview\Interview\EventsAndDelegates\obj\Debug\EventsAndDelegates.exe
+C:\Interview\Interview\EventsAndDelegates\obj\Debug\EventsAndDelegates.pdb
